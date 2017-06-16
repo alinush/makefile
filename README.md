@@ -2,11 +2,15 @@
 
 `-rdynamic` Pass the flag -export-dynamic to the ELF linker, on targets that support it. This instructs the linker to add all symbols, not only used ones, to the dynamic symbol table. This option is needed for some uses of dlopen or to allow obtaining backtraces from within a program. 
 
+## Optimization flags
+
+`-O2`
+
+`-Os` Optimize for size. -Os enables all -O2 optimizations that do not typically increase code size. It also performs further optimizations designed to reduce code size.
+
 ## Unsorted flags
 
 `-I\<path\>`
-`-O2`
-`-Os`
 `-Wall`
 `-Werror` 
 `-Wextra`
