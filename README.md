@@ -47,6 +47,7 @@
 `-g`
 `-ggdb3`
 `-pg` For profiling your code.
+`-pedantic`
 `-s`
 `-std=c99`
 `-std=gnu99`
